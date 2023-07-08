@@ -23,6 +23,8 @@ def get_response(question):
         return "I'm good, thank you!"
     elif question.lower() == 'what is your name?':
         return "I am Jarvis, a language model developed by Sathwik."
+    elif question.lower() == 'what are your features?':
+        return "I can assist you with anything you need!"
     else:
         return "I'm sorry, I don't have an answer for that."
 
